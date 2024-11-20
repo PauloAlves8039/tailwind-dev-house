@@ -41,10 +41,36 @@
             </div>
 
             <button class="w-11 h-11 rounded-full bg-gray-100 fixed z-30 bottom-5 left-4 hover:bg-gray-300 duration-200">
-                <i class="fa fa-phone" id="button-icon"></i>
+                <i class="fa fa-phone button-icon"></i>
             </button>
             
         </aside>
+
+        <main class="w-full flex flex-col pb-4">
+
+            <header class="bg-white w-full py-5 px-3 flex flex-row items-center justify-between">
+                
+                <div class="flex items-center bg-slate-100 px-3 py-2 w-full max-w-xs lg:max-w-[50%] rounded-lg lg:mr-8">
+                    <i class="fa fa-search text-gray-500 button-icon"></i>
+                    <input type="text" 
+                           class="w-full bg-slate-100 px-2 outline-none" 
+                           placeholder="Procurando algum apartamento?">
+                </div>
+
+                <div class="flex gap-3 items-center">
+                    <a href="#" class="w-8 h-8 p-5 bg-slate-100  hidden md:flex items-center justify-center rounded-full">
+                        <i class="fa fa-heart text-gray-500 button-icon"></i>
+                    </a>
+
+                    <button class="bg-rose-500 hover:bg-rose-600 duration-300 text-white flex items-center justify-center gap-2 py-2 rounded font-medium">
+                        <span class="hidden md:flex">Sign In</span>
+                        <i class="fa fa-user md:ml-1"></i>
+                    </button>
+                </div>
+
+            </header>
+
+        </main>
 
     </div>
 
